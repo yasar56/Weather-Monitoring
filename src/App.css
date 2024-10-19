@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+body {
+  background-color: #2f2f2f;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trigger-alert {
+  background-color: white;
+  height: 60px;
+  /* padding: 30px; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.trigger-alert input {
+  width: 20%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.alert-btn {
+  background-color: green;
+  border: none;
   color: white;
+  border-radius: 5px;
+  padding: 5px 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.alert-box {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  overflow-y: auto;
 }
+::-webkit-scrollbar{
+  width: 2px;
+}
+.weather-data {
+  background-color: white;
+  height: 80vh;
+  padding: 50px;
+  border-radius: 10px;
+  width: 500px;
+}
+.weather-daily-update {
+  background-color: white;
+  width: 700px;
+  height: 80vh;
+  border-radius: 10px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.table-maximize {
+  cursor: pointer;
+}
+.card {
+  margin-top: 30px;
+  width: 675px;
+  /* height: 150px; */
+  height: auto;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border: 2px solid black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.daily-degree {
+  position: relative;
+  left: 60%;
+  font-size: 25px;
+}
+.calculate-values ul li {
+  padding: 0px 1px;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.summeries {
+  background-color: white;
+  /* width: 300px; */
+  height: 300px;
 }
