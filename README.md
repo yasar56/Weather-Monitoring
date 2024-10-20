@@ -71,4 +71,23 @@ To set up the project locally, follow these steps:
 
     ```bash
     npm start
+
     ```
+## Directory Structure
+
+    src/
+    |── assets/
+    ├── components/
+    │   └── weatherMon.jsx
+    ├── App.js
+    ├── index.js
+    ├── index.css
+    └── app.css
+
+
+## Contact
+
+#### For any inquiries or support, please contact:
+
+- Mohamed Javed Yasar
+- Email: yasarm0024@gmail.com
