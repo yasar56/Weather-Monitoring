@@ -23,6 +23,13 @@ conditions.
 
 ## Installation
 
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (which includes npm)
+- [Git](https://git-scm.com/) (optional, for cloning the repository)
+
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
@@ -37,12 +44,30 @@ To set up the project locally, follow these steps:
     ```bash
     cd Weather-Monitor
     ```
-3. Install the required dependencies:
 
-    ```bash
+
+## Installing React and Dependencies
+
+
+1. Initialize the React Project (if not already done):
+   If you don't have the create-react-app tool installed, you can install it globally using npm:
+
+     ```bash
+     npm install -g create-react-app
+
+2. Install Project Dependencies:
+
+   Make sure you are in the project directory, then install all required dependencies:
+
+   ```bash
     npm install
-    ```
-4. Run the application
+
+3. Run the Application:
+    
+    Start the development server
+    
+    The application will be available at http://localhost:3000/.
+
 
     ```bash
     npm start
