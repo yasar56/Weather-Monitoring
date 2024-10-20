@@ -19,7 +19,7 @@ conditions.
 - **Frontend:** React.js, HTML
 - **API:** OpenWeatherMap API
 - **State Management:** Local Storage
-- **Styling:** CSS?Bootstrap
+- **Styling:** CSS/Bootstrap
 
 ## Installation
 
@@ -36,4 +36,14 @@ To set up the project locally, follow these steps:
 
     ```bash
     cd Weather-Monitor
+    ```
+3. Install the required dependencies:
+
+    ```bash
+    npm install
+    ```
+4. Run the application
+
+    ```bash
+    npm start
     ```
