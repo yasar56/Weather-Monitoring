@@ -75,7 +75,7 @@ To set up the project locally, follow these steps:
 
    ```
 
-### Usage
+## Usage
 
 #### 1. Selecting a City:
 
