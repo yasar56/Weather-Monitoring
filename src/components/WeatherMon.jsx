@@ -170,6 +170,8 @@ export default function WeatherMon() {
     };
   }, [selectedCity, displayTrigger]);
 
+
+
   useEffect(() => {
     const storedForecastData = localStorage.getItem("dailyWeather");
     if (storedForecastData) {
